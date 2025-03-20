@@ -269,13 +269,13 @@ def get_all_queries() -> List[Callable[[Engine], QueryResult]]:
     return [
         query_delivery_date_difference,
         query_global_ammount_order_status,
-        # query_revenue_by_month_year,
+        query_revenue_by_month_year,
         query_revenue_per_state,
         query_top_10_least_revenue_categories,
         query_top_10_revenue_categories,
         query_real_vs_estimated_delivered_time,
-        query_orders_per_day_and_holidays_2017,
-        query_freight_value_weight_relationship,
+        #query_orders_per_day_and_holidays_2017,
+        #query_freight_value_weight_relationship,
     ]
 
 
